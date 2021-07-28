@@ -66,7 +66,7 @@ public class GetTokenController {
 		String consumerKey = "<Your API key>";
 		String consumerSecret = "<Your API secret>";
     	
-		//build the configuration
+	//build the configuration
     	ConfigurationBuilder builder = new ConfigurationBuilder();
     	builder.setOAuthConsumerKey(consumerKey);
     	builder.setOAuthConsumerSecret(consumerSecret);
